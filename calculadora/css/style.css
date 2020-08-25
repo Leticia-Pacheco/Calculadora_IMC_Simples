@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.centerObject{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h2{
+    font-size: 2.2em;
+}
+
+.texto{
+    font-size: 1.2em;
+}
+
+#base{
+    width: 390px;
+    height: 580px;
+    
+    background-color: #025c6e;
+
+    margin-top: 5px;
+    border-radius: 30px 30px 30px 30px;
+
+    box-shadow: 10px 10px 20px black;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+
+    padding-top: 30px;
+
+    text-align: center;
+    color: white;
+
+    background-color: #025c6e;
+
+    border-radius: 29px 29px 0px 0px;
+    border-bottom: solid 8px white;
+
+    margin-bottom: 30px;
+}
+
+#textosEntradaDeDados{
+    width: 20%;
+    height: 200px;
+
+    color: white;
+
+    margin-left: 25px;
+
+    text-align: center;
+
+    line-height: 3.4;
+
+    float: left;
+}
+
+#entradaDeDados{
+    width: 60%;
+    height: 200px;
+
+    padding-top: 10px;
+
+    margin-right: 35px;
+
+    float: right;
+}
+
+#entradaNome, #entradaAltura, #entradaPeso{
+    width: 100%;
+    height: 50px;
+
+    background-color: white;
+
+    font-size: 1em;
+
+    border: white 1px;
+
+    margin-bottom: 15px;
+
+    border-radius: 6px 6px 6px 6px;
+}
+
+#calcular{
+    width: 80%;
+    height: 40px;
+
+    background-color: white;
+
+    margin-left: 45px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+
+    border: white 1px;
+
+    box-shadow: 1px 1px 10px black;
+
+    border-radius: 6px 6px 6px 6px;
+
+    text-align: center;
+    color: #025c6e;
+    font-weight: bold;
+
+    float: left;
+}
+
+#resultado{
+    width: 80%;
+    height: 150px;
+
+    background-color: white;
+
+    border-radius: 6px 6px 6px 6px;
+    
+    margin-left: 45px;
+
+    padding: 10px;
+    padding-top: 30px;
+
+    font-weight: bold;
+    color: #025c6e;
+
+    box-shadow: 1px 1px 10px black;
+
+    float: left;
+}
